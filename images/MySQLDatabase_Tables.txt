@@ -1,0 +1,83 @@
+Project 1 Database and Tables
+
+
+
+mysql> create database expenseReimb;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use database expenseReimb;
+Database changed
+
+
+
+mysql> describe employees;
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| empID        | int         | NO   | PRI | NULL    | auto_increment |
+| empFirstName | varchar(30) | YES  |     | NULL    |                |
+| empLastName  | varchar(40) | YES  |     | NULL    |                |
+| empDept      | varchar(30) | YES  |     | NULL    |                |
+| empPhone     | int         | YES  |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+mysql>
+
+
+
+mysql> describe managers;
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| mgrID        | int         | NO   | PRI | NULL    | auto_increment |
+| mgrFirstName | varchar(30) | YES  |     | NULL    |                |
+| mgrLastName  | varchar(40) | NO   |     | NULL    |                |
+| mgrDept      | varchar(30) | YES  |     | NULL    |                |
+| mgrPhone     | int         | YES  |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+
+
+
+mysql> describe transactions;
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| transID     | int         | NO   | PRI | NULL    | auto_increment |
+| empIDReq    | varchar(20) | YES  |     | NULL    |                |
+| transType   | varchar(40) | NO   |     | NULL    |                |
+| transDate   | datetime    | YES  |     | NULL    |                |
+| transAmount | double      | YES  |     | NULL    |                |
+| mgrID       | int         | YES  |     | NULL    |                |
+| status      | varchar(30) | YES  |     | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
+7 rows in set (0.00 sec)
+
+mysql>
+
+Looks like we will need a users table after all;
+
+Grant Table Overview
+These mysql database tables contain grant information:
+
+user: User accounts, global privileges, and other nonprivilege columns.
+
+db: Database-level privileges.
+
+tables_priv: Table-level privileges.
+
+columns_priv: Column-level privileges.
+
+procs_priv: Stored procedure and function privileges.
+
+proxies_priv: Proxy-user privileges.
+
+---------------------------------------------------
+
+Hose 	char(60) No Null Primary
+User	char(16) Not Null Primary
+Password 	char(41)
+select_privN
+
