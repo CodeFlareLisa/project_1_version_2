@@ -99,19 +99,12 @@ blue. I call it a pretty blue.
  ___
 
 # Screenshots
+
+![database](https://user-images.githubusercontent.com/57600486/175308611-7918f98e-35cc-4c6d-ba0a-8ebd60d10ffc.png)
+
+
 ---
-![Expense Reimbrsement System](../git%20training/Project%201/images/Expense%20Management.png "Flow Diagram") 
-### On the above chart, there should be a **line from 'Manager Approval' to 'Audit Required'**
-
-![First Option of Login Page](../git%20training/Project%201/images/LoginPg_Optn1.png "First Draft of Login Page")     
-### We decided to choose the blue in Bootstrap instead of this green.
-
-![MySQL Database](../git%20training/Project%201/images/MySQLDatabase_Tables.txt "MySQL Database Schema")       
-
-![Login Page](../git%20training/Project%201/images/AllEmployeeLoginPgFinal.png "Login Page")   
-
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
-
+![AllEmployeeLoginPgFinal](https://user-images.githubusercontent.com/57600486/175311386-04e5f831-c20a-4d4b-a4a8-06bd78130fb1.png)
 
 ___
 
