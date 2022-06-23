@@ -70,10 +70,10 @@ meeting notes. I set the next meeting agenda, asking for their
 comments, concerns, and questions at the beginning of the meeting. 
 
 One of the members dropped out of the project, and the other
-said they would not help with servlets. Unfortunately, I ran out 
-of time to finish coding the project. 
+said they would not help with servlets. I coded html, CSS, Java 
+and MySQL. Unfortunately, I ran out of time to finish coding the project. 
 
-I drew up diarams which included flowcharts, and ERD Diagrams.
+I drew up diagrams which included flowcharts, and ERD Diagrams.
 I coded in Visual Code for the HTML and CSS pages over the first weekend. 
 On Monday, I received clarification that the project had to be 
 programmed in IntelliJ, so I switched over. 
